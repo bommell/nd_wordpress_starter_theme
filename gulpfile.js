@@ -74,7 +74,7 @@ gulp.task('browserSync', function(){
     ];
     browserSync.init(
       files, {
-      proxy : 'localhost:8888/jobs/heisaplan',
+      proxy : 'localhost:8888/your_folder',
     });
 });
 
