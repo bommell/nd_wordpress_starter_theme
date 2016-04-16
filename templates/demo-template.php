@@ -1,0 +1,1 @@
+<h1>This is a demo template which will be compiled into php</h1><?php echo 'usage of php inside the template' ?>
