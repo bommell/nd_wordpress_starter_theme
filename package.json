@@ -19,6 +19,7 @@
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "lost": "^6.7.2",
-    "postcss-cssnext": "^2.5.2"
+    "postcss-cssnext": "^2.5.2",
+    "gulp-jade-php": "^1.1.0"
   }
 }
