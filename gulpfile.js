@@ -46,10 +46,11 @@ gulp.task('styles', function(){
     .pipe(gulp.dest('./css/'));
 });
 
-// javascript task
 gulp.task('javascript', function(){
   return gulp.src('./js/*.js')
+    .pipe(plumber())
     .pipe(babel())
+    .pipe(plumber.stop())
     .pipe(gulp.dest('./js/dist/'));
 });
 
