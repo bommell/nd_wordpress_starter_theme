@@ -19,6 +19,7 @@ var csswring      = require('csswring');
 
 // javascript
 var babel         = require('gulp-babel');
+var plumber       = require('gulp-plumber');
 
 // jade
 var jade          = require('gulp-jade-php');
